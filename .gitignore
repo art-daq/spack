@@ -1,3 +1,10 @@
+###########################
+# artdaq-specific ignores #
+###########################
+/var/mpd
+/etc/spack/site/config.yaml
+
+
 ##########################
 # Spack-specific ignores #
 ##########################

@@ -18,3 +18,14 @@ include:
     path: "/etc/spack"
     optional: true
     when: '"SPACK_DISABLE_LOCAL_CONFIG" not in env'
+
+  # almalinux9 Packages
+  - path: "/etc/spack/linux/almalinux9"
+    optional: true
+    when: 'os == "almalinux9"'
+
+  # almalinux10 Packages
+  - path: "/etc/spack/linux/almalinux10"
+    optional: true
+    when: 'os == "almalinux10"'
+
